@@ -1,0 +1,87 @@
+nav ul{
+  margin: 0;
+  padding:0;
+  list-style: none;
+}
+nav li{
+  display: inline-block;
+  margin: 0 35px;
+  position: relative;
+
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  float: right;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 25px;
+  }
+.titles {
+  text-align: center;
+  font-family: "Lucida Console";
+}
+.navigations{
+  display: flex;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  margin: 10px;
+}
+#info{
+  display: flex;
+  margin: 20px;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+
+}
+#profile-pic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  width: 260px;
+  height: 250px;
+}
+
+nav a{
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+nav a:hover {
+  color: #000000;
+
+}
+nav a::before{
+  content: '';
+  display: block;
+  height: 3px;
+  background-color: #8584e3;
+  position: absolute;
+  top: 0;
+  width: 0;
+  transition: all ease-in-out 200ms;
+}
+nav a:hover::before{
+  width: 100%;
+}
+#puppy-pic{
+  width: 350px auto;
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+section{
+  padding: auto;
+  margin:auto;
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 18px;
+
+}
